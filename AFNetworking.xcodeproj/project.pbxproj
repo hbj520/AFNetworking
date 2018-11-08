@@ -23,6 +23,8 @@
 		1F96D2A5203649570085FC3F /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F96D2A6203649570085FC3F /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F96D2A7203649580085FC3F /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2924CC31219464F500A5FEE6 /* BronAFNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2924CC2F219464F500A5FEE6 /* BronAFNetworkingManager.h */; };
+		2924CC32219464F500A5FEE6 /* BronAFNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2924CC30219464F500A5FEE6 /* BronAFNetworkingManager.m */; };
 		2960BAC31C1B2F1A00BA02F0 /* AFUIButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960BAC21C1B2F1A00BA02F0 /* AFUIButtonTests.m */; };
 		297824A31BC2D69A0041C395 /* adn_0.cer in Resources */ = {isa = PBXBuildFile; fileRef = 297824A01BC2D69A0041C395 /* adn_0.cer */; };
 		297824A41BC2D69A0041C395 /* adn_0.cer in Resources */ = {isa = PBXBuildFile; fileRef = 297824A01BC2D69A0041C395 /* adn_0.cer */; };
@@ -237,6 +239,8 @@
 		1F0B1DC5216EF28A00CB1F28 /* httpbinorg_12092018.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbinorg_12092018.cer; sourceTree = "<group>"; };
 		1F6F7DF51F1703A100C979D0 /* Let's Encrypt Authority X3.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Let's Encrypt Authority X3.cer"; sourceTree = "<group>"; };
 		1F6F7DF61F1703A100C979D0 /* DST Root CA X3.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DST Root CA X3.cer"; sourceTree = "<group>"; };
+		2924CC2F219464F500A5FEE6 /* BronAFNetworkingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BronAFNetworkingManager.h; sourceTree = "<group>"; };
+		2924CC30219464F500A5FEE6 /* BronAFNetworkingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BronAFNetworkingManager.m; sourceTree = "<group>"; };
 		2960BAC21C1B2F1A00BA02F0 /* AFUIButtonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUIButtonTests.m; sourceTree = "<group>"; };
 		297824A01BC2D69A0041C395 /* adn_0.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = adn_0.cer; path = ADNNetServerTrustChain/adn_0.cer; sourceTree = "<group>"; };
 		297824A11BC2D69A0041C395 /* adn_1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = adn_1.cer; path = ADNNetServerTrustChain/adn_1.cer; sourceTree = "<group>"; };
@@ -527,6 +531,8 @@
 				299522501BBF125A00859F49 /* AFURLResponseSerialization.m */,
 				299522511BBF125A00859F49 /* AFURLSessionManager.h */,
 				299522521BBF125A00859F49 /* AFURLSessionManager.m */,
+				2924CC2F219464F500A5FEE6 /* BronAFNetworkingManager.h */,
+				2924CC30219464F500A5FEE6 /* BronAFNetworkingManager.m */,
 			);
 			path = AFNetworking;
 			sourceTree = "<group>";
@@ -603,6 +609,7 @@
 			files = (
 				2995225A1BBF125A00859F49 /* AFURLRequestSerialization.h in Headers */,
 				299522A81BBF13C700859F49 /* UIImage+AFNetworking.h in Headers */,
+				2924CC31219464F500A5FEE6 /* BronAFNetworkingManager.h in Headers */,
 				299522531BBF125A00859F49 /* AFHTTPSessionManager.h in Headers */,
 				2995229C1BBF13C700859F49 /* AFAutoPurgingImageCache.h in Headers */,
 				299522581BBF125A00859F49 /* AFSecurityPolicy.h in Headers */,
@@ -1058,6 +1065,7 @@
 				2995225D1BBF125A00859F49 /* AFURLResponseSerialization.m in Sources */,
 				2995229F1BBF13C700859F49 /* AFImageDownloader.m in Sources */,
 				299522A11BBF13C700859F49 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				2924CC32219464F500A5FEE6 /* BronAFNetworkingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
